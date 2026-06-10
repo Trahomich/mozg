@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <defs>
+    <marker id="a1" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0 0,6 2,0 4" fill="#aaa"/>
+    </marker>
+  </defs>
+  <rect width="900" height="600" fill="#1a1a2e" rx="12"/>
+  <text x="450" y="30" fill="#fff" font-size="18" font-family="sans-serif" text-anchor="middle" font-weight="bold">Доли и основные зоны головного мозга</text>
+  
+  <!-- Brain outline (simplified left hemisphere, lateral view) -->
+  <path d="M200,300 C180,200 220,100 320,70 C380,50 460,45 530,60 C600,75 660,110 690,170 C720,230 720,300 700,360 C680,420 640,470 580,500 C520,530 440,540 370,520 C300,500 240,450 210,390 Z" 
+        fill="#2c3e50" stroke="#5d6d7e" stroke-width="2"/>
+  
+  <!-- Central sulcus -->
+  <path d="M380,75 C370,140 360,220 370,310 C375,360 380,400 390,440" 
+        fill="none" stroke="#e74c3c" stroke-width="2.5" stroke-dasharray="5,3"/>
+  <text x="310" y="260" fill="#e74c3c" font-size="10" font-family="sans-serif" transform="rotate(-80,310,260)">Центральная борозда</text>
+  
+  <!-- Lateral sulcus -->
+  <path d="M350,310 C400,300 470,295 540,310 C580,320 610,340 630,360" 
+        fill="none" stroke="#3498db" stroke-width="2.5" stroke-dasharray="5,3"/>
+  <text x="490" y="340" fill="#3498db" font-size="10" font-family="sans-serif">Латеральная борозда</text>
+  
+  <!-- Frontal lobe -->
+  <path d="M320,70 C380,50 460,45 530,60 L370,75 C370,140 360,220 370,310 L350,310 C400,300 350,300 320,280 C280,240 250,180 240,140 C230,110 260,80 320,70 Z" 
+        fill="#e74c3c" opacity="0.2" stroke="#e74c3c" stroke-width="1.5"/>
+  <text x="280" y="180" fill="#e74c3c" font-size="14" font-family="sans-serif" font-weight="bold">Лобная</text>
+  <text x="280" y="196" fill="#e74c3c" font-size="11" font-family="sans-serif">доля</text>
+  
+  <!-- Parietal lobe -->
+  <path d="M370,75 L370,310 L350,310 C375,360 380,400 390,440 L320,420 C280,380 260,340 260,300 C260,250 300,180 370,75 Z" 
+        fill="#2ecc71" opacity="0.2" stroke="#2ecc71" stroke-width="1.5"/>
+  <text x="310" y="360" fill="#2ecc71" font-size="14" font-family="sans-serif" font-weight="bold">Теменная</text>
+  <text x="315" y="376" fill="#2ecc71" font-size="11" font-family="sans-serif">доля</text>
+  
+  <!-- Temporal lobe -->
+  <path d="M350,310 C400,300 470,295 540,310 C580,320 610,340 630,360 L600,420 C550,460 480,470 420,450 C380,440 360,400 350,370 C345,345 348,320 350,310 Z" 
+        fill="#f39c12" opacity="0.2" stroke="#f39c12" stroke-width="1.5"/>
+  <text x="470" y="390" fill="#f39c12" font-size="14" font-family="sans-serif" font-weight="bold">Височная</text>
+  <text x="475" y="406" fill="#f39c12" font-size="11" font-family="sans-serif">доля</text>
+  
+  <!-- Occipital lobe -->
+  <path d="M530,60 C600,75 660,110 690,170 C720,230 720,300 700,360 C680,420 640,470 580,500 C540,480 510,440 500,400 C490,350 510,280 530,200 C540,150 540,100 530,60 Z" 
+        fill="#9b59b6" opacity="0.2" stroke="#9b59b6" stroke-width="1.5"/>
+  <text x="620" y="270" fill="#9b59b6" font-size="14" font-family="sans-serif" font-weight="bold">Затылочная</text>
+  <text x="625" y="286" fill="#9b59b6" font-size="11" font-family="sans-serif">доля</text>
+  
+  <!-- Functional areas annotations -->
+  <!-- Broca -->
+  <circle cx="430" cy="200" r="4" fill="#fff"/>
+  <line x1="432" y1="200" x2="500" y2="180" stroke="#fff" stroke-width="1"/>
+  <text x="505" y="178" fill="#fff" font-size="10" font-family="sans-serif">Зона Брока (речь)</text>
+  
+  <!-- Wernicke -->
+  <circle cx="480" cy="370" r="4" fill="#fff"/>
+  <line x1="482" y1="370" x2="560" y2="430" stroke="#fff" stroke-width="1"/>
+  <text x="440" y="475" fill="#fff" font-size="10" font-family="sans-serif">Зона Вернике (понимание речи)</text>
+  
+  <!-- Motor cortex -->
+  <text x="290" y="300" fill="#fff" font-size="9" font-family="sans-serif">Моторная</text>
+  <text x="295" y="310" fill="#fff" font-size="9" font-family="sans-serif">кора</text>
+  
+  <!-- Visual cortex -->
+  <text x="650" y="370" fill="#fff" font-size="9" font-family="sans-serif">Зрительная</text>
+  <text x="655" y="380" fill="#fff" font-size="9" font-family="sans-serif">кора</text>
+  
+  <!-- Hippocampus label (inside) -->
+  <circle cx="440" cy="340" r="3" fill="#1abc9c"/>
+  <text x="440" y="450" fill="#1abc9c" font-size="10" font-family="sans-serif">Гиппокамп (память) — внутри височной доли</text>
+  
+  <!-- Cerebellum -->
+  <path d="M200,390 C220,430 260,470 300,490 C260,510 210,510 180,490 C160,470 160,430 200,390 Z" 
+        fill="#16a085" opacity="0.3" stroke="#16a085" stroke-width="1.5"/>
+  <text x="195" y="470" fill="#16a085" font-size="12" font-family="sans-serif" font-weight="bold">Мозжечок</text>
+  <text x="175" y="485" fill="#16a085" font-size="9" font-family="sans-serif">(координация)</text>
+  
+  <!-- Brain stem -->
+  <path d="M250,480 C270,510 300,530 320,535 C310,550 280,550 260,540 C240,530 230,510 250,480 Z" 
+        fill="#7f8c8d" opacity="0.3" stroke="#7f8c8d" stroke-width="1.5"/>
+  <text x="230" y="540" fill="#95a5a6" font-size="10" font-family="sans-serif">Ствол мозга</text>
+  
+  <!-- Legend box -->
+  <rect x="50" y="30" width="170" height="160" fill="#16213e" rx="8" opacity="0.9"/>
+  <rect x="65" y="45" width="12" height="12" fill="#e74c3c" opacity="0.5"/>
+  <text x="83" y="55" fill="#ccc" font-size="10" font-family="sans-serif">Лобная — мышление, планирование</text>
+  <rect x="65" y="65" width="12" height="12" fill="#2ecc71" opacity="0.5"/>
+  <text x="83" y="75" fill="#ccc" font-size="10" font-family="sans-serif">Теменная — ощущения, пространство</text>
+  <rect x="65" y="85" width="12" height="12" fill="#f39c12" opacity="0.5"/>
+  <text x="83" y="95" fill="#ccc" font-size="10" font-family="sans-serif">Височная — слух, память, речь</text>
+  <rect x="65" y="105" width="12" height="12" fill="#9b59b6" opacity="0.5"/>
+  <text x="83" y="115" fill="#ccc" font-size="10" font-family="sans-serif">Затылочная — зрение</text>
+  <rect x="65" y="125" width="12" height="12" fill="#16a085" opacity="0.5"/>
+  <text x="83" y="135" fill="#ccc" font-size="10" font-family="sans-serif">Мозжечок — координация</text>
+  <rect x="65" y="145" width="12" height="12" fill="#7f8c8d" opacity="0.5"/>
+  <text x="83" y="155" fill="#ccc" font-size="10" font-family="sans-serif">Ствол — дыхание, сердцебиение</text>
+</svg>

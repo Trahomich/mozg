@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#1a1a2e" rx="12"/>
+  <text x="400" y="30" fill="#fff" font-size="18" font-family="sans-serif" text-anchor="middle" font-weight="bold">Биологический нейрон vs Искусственный нейрон</text>
+  
+  <!-- Biological neuron (top) -->
+  <rect x="50" y="50" width="700" height="240" fill="#1e2a3a" rx="10"/>
+  <text x="400" y="75" fill="#2ecc71" font-size="14" font-family="sans-serif" text-anchor="middle" font-weight="bold">Биологический нейрон</text>
+  
+  <!-- Dendrites -->
+  <g stroke="#e67e22" stroke-width="2" fill="none">
+    <path d="M100,180 C140,160 160,140 200,150"/>
+    <path d="M100,200 C140,190 170,180 200,180"/>
+    <path d="M100,220 C140,230 170,230 200,220"/>
+  </g>
+  <text x="80" y="165" fill="#e67e22" font-size="10" font-family="sans-serif" text-anchor="end">Дендриты</text>
+  <text x="80" y="178" fill="#e67e22" font-size="10" font-family="sans-serif" text-anchor="end">(входы)</text>
+  
+  <!-- Synaptic weights -->
+  <text x="155" y="145" fill="#f1c40f" font-size="9" font-family="sans-serif">w₁</text>
+  <text x="155" y="175" fill="#f1c40f" font-size="9" font-family="sans-serif">w₂</text>
+  <text x="155" y="228" fill="#f1c40f" font-size="9" font-family="sans-serif">w₃</text>
+  
+  <!-- Soma -->
+  <ellipse cx="310" cy="190" rx="60" ry="45" fill="#2c3e50" stroke="#c9a96e" stroke-width="2"/>
+  <text x="310" y="185" fill="#c9a96e" font-size="11" font-family="sans-serif" text-anchor="middle">Сома</text>
+  <text x="310" y="200" fill="#888" font-size="9" font-family="sans-serif" text-anchor="middle">∑wᵢxᵢ + b</text>
+  
+  <!-- Axon -->
+  <line x1="375" y1="190" x2="480" y2="190" stroke="#4a90d9" stroke-width="4"/>
+  <text x="425" y="180" fill="#4a90d9" font-size="10" font-family="sans-serif" text-anchor="middle">Аксон</text>
+  
+  <!-- Activation function -->
+  <rect x="480" y="165" width="90" height="50" fill="#1a3a1a" rx="8" stroke="#2ecc71" stroke-width="1.5"/>
+  <text x="525" y="188" fill="#2ecc71" font-size="10" font-family="sans-serif" text-anchor="middle">Порог</text>
+  <text x="525" y="200" fill="#2ecc71" font-size="10" font-family="sans-serif" text-anchor="middle">возбуждения</text>
+  
+  <!-- Output -->
+  <line x1="575" y1="190" x2="650" y2="190" stroke="#e74c3c" stroke-width="3"/>
+  <circle cx="660" cy="190" r="10" fill="#e74c3c" opacity="0.5"/>
+  <text x="660" y="193" fill="#fff" font-size="9" font-family="sans-serif" text-anchor="middle">out</text>
+  <text x="660" y="170" fill="#e74c3c" font-size="10" font-family="sans-serif">Спайк</text>
+  <text x="660" y="225" fill="#888" font-size="9" font-family="sans-serif">Частота: 1-200 Гц</text>
+  <text x="660" y="238" fill="#888" font-size="9" font-family="sans-serif">Аналоговый (частотный код)</text>
+  
+  <!-- Chemical signals -->
+  <text x="400" y="270" fill="#888" font-size="9" font-family="sans-serif" text-anchor="middle">Химическая передача (нейромедиаторы) + электрические сигналы (потенциал действия ~70 мВ)</text>
+  
+  <!-- Artificial neuron (bottom) -->
+  <rect x="50" y="310" width="700" height="240" fill="#2a1e2a" rx="10"/>
+  <text x="400" y="335" fill="#e74c3c" font-size="14" font-family="sans-serif" text-anchor="middle" font-weight="bold">Искусственный нейрон (персептрон)</text>
+  
+  <!-- Inputs -->
+  <text x="90" y="410" fill="#3498db" font-size="10" font-family="sans-serif">x₁</text>
+  <line x1="100" y1="407" x2="200" y2="420" stroke="#3498db" stroke-width="2"/>
+  <text x="90" y="435" fill="#3498db" font-size="10" font-family="sans-serif">x₂</text>
+  <line x1="100" y1="432" x2="200" y2="430" stroke="#3498db" stroke-width="2"/>
+  <text x="90" y="460" fill="#3498db" font-size="10" font-family="sans-serif">x₃</text>
+  <line x1="100" y1="457" x2="200" y2="440" stroke="#3498db" stroke-width="2"/>
+  
+  <!-- Weights -->
+  <text x="150" y="405" fill="#f1c40f" font-size="9" font-family="sans-serif">×w₁</text>
+  <text x="150" y="425" fill="#f1c40f" font-size="9" font-family="sans-serif">×w₂</text>
+  <text x="150" y="452" fill="#f1c40f" font-size="9" font-family="sans-serif">×w₃</text>
+  
+  <!-- Summation -->
+  <circle cx="250" cy="430" r="30" fill="#3c1a3c" stroke="#e74c3c" stroke-width="2"/>
+  <text x="250" y="427" fill="#fff" font-size="11" font-family="sans-serif" text-anchor="middle">Σ</text>
+  <text x="250" y="442" fill="#aaa" font-size="9" font-family="sans-serif" text-anchor="middle">+ bias</text>
+  
+  <!-- Arrow to activation -->
+  <line x1="283" y1="430" x2="360" y2="430" stroke="#f39c12" stroke-width="2"/>
+  
+  <!-- Activation function -->
+  <rect x="360" y="405" width="100" height="50" fill="#1a3a1a" rx="8" stroke="#2ecc71" stroke-width="1.5"/>
+  <text x="410" y="425" fill="#2ecc71" font-size="10" font-family="sans-serif" text-anchor="middle">σ / ReLU</text>
+  <text x="410" y="440" fill="#888" font-size="9" font-family="sans-serif" text-anchor="middle">f(z)</text>
+  
+  <!-- Output -->
+  <line x1="465" y1="430" x2="550" y2="430" stroke="#e74c3c" stroke-width="3"/>
+  <rect x="550" y="415" width="80" height="30" fill="#3c1a1a" rx="5" stroke="#e74c3c" stroke-width="1"/>
+  <text x="590" y="435" fill="#e74c3c" font-size="11" font-family="sans-serif" text-anchor="middle">y = f(z)</text>
+  <text x="590" y="460" fill="#888" font-size="9" font-family="sans-serif">Число (0..1 или любое)</text>
+  <text x="590" y="473" fill="#888" font-size="9" font-family="sans-serif">Цифровой (непрерывный)</text>
+  
+  <text x="400" y="510" fill="#888" font-size="9" font-family="sans-serif" text-anchor="middle">Математическая операция: z = Σwᵢxᵢ + b → y = activation(z)</text>
+  
+  <!-- Key differences -->
+  <rect x="50" y="525" width="700" height="65" fill="#16213e" rx="8"/>
+  <text x="400" y="545" fill="#fff" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="bold">Ключевые различия</text>
+  <text x="200" y="565" fill="#2ecc71" font-size="10" font-family="sans-serif" text-anchor="middle">Био: ~86 млрд нейронов, ~100 трлн синапсов</text>
+  <text x="200" y="580" fill="#2ecc71" font-size="10" font-family="sans-serif" text-anchor="middle">Асинхронные, аналоговые, энергосберегающие (~20 Вт)</text>
+  <text x="600" y="565" fill="#e74c3c" font-size="10" font-family="sans-serif" text-anchor="middle">ИИ: млн—млрд параметров</text>
+  <text x="600" y="580" fill="#e74c3c" font-size="10" font-family="sans-serif" text-anchor="middle">Синхронные, числа, 100+ кВт на обучение</text>
+</svg>

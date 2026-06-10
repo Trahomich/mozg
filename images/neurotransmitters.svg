@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#1a1a2e" rx="12"/>
+  <text x="400" y="35" fill="#fff" font-size="18" font-family="sans-serif" text-anchor="middle" font-weight="bold">Основные нейромедиаторы</text>
+  
+  <!-- Excitatory section -->
+  <text x="200" y="70" fill="#e74c3c" font-size="15" font-family="sans-serif" text-anchor="middle" font-weight="bold">Возбуждающие</text>
+  
+  <!-- Glutamate -->
+  <rect x="50" y="90" width="300" height="80" fill="#2c1015" rx="8" stroke="#e74c3c" stroke-width="1"/>
+  <text x="70" y="115" fill="#e74c3c" font-size="14" font-family="sans-serif" font-weight="bold">Глутамат</text>
+  <text x="70" y="135" fill="#ccc" font-size="11" font-family="sans-serif">Главный возбуждающий медиатор ЦНС.</text>
+  <text x="70" y="150" fill="#999" font-size="10" font-family="sans-serif">Участвует в обучении, памяти (LTP). ~90% синапсов коры.</text>
+  
+  <!-- Acetylcholine -->
+  <rect x="50" y="185" width="300" height="80" fill="#2c1015" rx="8" stroke="#e74c3c" stroke-width="1"/>
+  <text x="70" y="210" fill="#e74c3c" font-size="14" font-family="sans-serif" font-weight="bold">Ацетилхолин (ACh)</text>
+  <text x="70" y="230" fill="#ccc" font-size="11" font-family="sans-serif">Внимание, обучение, память.</text>
+  <text x="70" y="245" fill="#999" font-size="10" font-family="sans-serif">НМР → мышечное сокращение. Дефицит → болезнь Альцгеймера.</text>
+  
+  <!-- Inhibitory section -->
+  <text x="600" y="70" fill="#3498db" font-size="15" font-family="sans-serif" text-anchor="middle" font-weight="bold">Тормозные</text>
+  
+  <!-- GABA -->
+  <rect x="450" y="90" width="300" height="80" fill="#0f1a2c" rx="8" stroke="#3498db" stroke-width="1"/>
+  <text x="470" y="115" fill="#3498db" font-size="14" font-family="sans-serif" font-weight="bold">ГАМК (GABA)</text>
+  <text x="470" y="135" fill="#ccc" font-size="11" font-family="sans-serif">Главный тормозной медиатор (~30% синапсов).</text>
+  <text x="470" y="150" fill="#999" font-size="10" font-family="sans-serif">Снижает возбудимость. Бензодиазепины → GABA-рецепторы.</text>
+  
+  <!-- Glycine -->
+  <rect x="450" y="185" width="300" height="80" fill="#0f1a2c" rx="8" stroke="#3498db" stroke-width="1"/>
+  <text x="470" y="210" fill="#3498db" font-size="14" font-family="sans-serif" font-weight="bold">Глицин</text>
+  <text x="470" y="230" fill="#ccc" font-size="11" font-family="sans-serif">Тормозной медиатор спинного мозга и ствола.</text>
+  <text x="470" y="245" fill="#999" font-size="10" font-family="sans-serif">Координирует движения. Стрихнин — антагонист.</text>
+  
+  <!-- Modulatory section -->
+  <text x="400" y="300" fill="#f39c12" font-size="15" font-family="sans-serif" text-anchor="middle" font-weight="bold">Модулирующие (нейромодуляторы)</text>
+  
+  <!-- Dopamine -->
+  <rect x="50" y="320" width="220" height="70" fill="#2c2510" rx="8" stroke="#f39c12" stroke-width="1"/>
+  <text x="70" y="342" fill="#f39c12" font-size="13" font-family="sans-serif" font-weight="bold">Дофамин</text>
+  <text x="70" y="360" fill="#ccc" font-size="10" font-family="sans-serif">Мотивация, удовольствие,</text>
+  <text x="70" y="375" fill="#999" font-size="10" font-family="sans-serif">двигательный контроль. Дефицит → Паркинсон.</text>
+  
+  <!-- Serotonin -->
+  <rect x="290" y="320" width="220" height="70" fill="#2c2510" rx="8" stroke="#f39c12" stroke-width="1"/>
+  <text x="310" y="342" fill="#f39c12" font-size="13" font-family="sans-serif" font-weight="bold">Серотонин</text>
+  <text x="310" y="360" fill="#ccc" font-size="10" font-family="sans-serif">Настроение, сон, аппетит.</text>
+  <text x="310" y="375" fill="#999" font-size="10" font-family="sans-serif">СИОЗС — антидепрессанты.</text>
+  
+  <!-- Noradrenaline -->
+  <rect x="530" y="320" width="220" height="70" fill="#2c2510" rx="8" stroke="#f39c12" stroke-width="1"/>
+  <text x="550" y="342" fill="#f39c12" font-size="13" font-family="sans-serif" font-weight="bold">Норадреналин</text>
+  <text x="550" y="360" fill="#ccc" font-size="10" font-family="sans-serif">Бдительность, реакция «бей</text>
+  <text x="550" y="375" fill="#999" font-size="10" font-family="sans-serif">или беги». Внимание, энергия.</text>
+  
+  <!-- Balance visual -->
+  <rect x="200" y="420" width="400" height="55" fill="#16213e" rx="8"/>
+  <text x="400" y="445" fill="#fff" font-size="12" font-family="sans-serif" text-anchor="middle">Баланс возбуждения и торможения — основа здоровой работы мозга</text>
+  <text x="400" y="463" fill="#888" font-size="10" font-family="sans-serif" text-anchor="middle">Эпилепсия ≈ гипервозбуждение · Кома ≈ гиперторможение</text>
+</svg>
